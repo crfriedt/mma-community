@@ -5,13 +5,12 @@
 }
 
 body{
-  background-color: #DADEDF;
+  background-image: url('Images/blood.gif');
+  background-size: cover;
 }
 
 #nav{
-  background-image: url('Images/blood.gif');
-  height: 100px;
-  outline:solid black;
+  height: 30px;
 }
 
 .nav-item{
@@ -20,14 +19,14 @@ body{
   color: white;
   font-size: larger;
   position: relative;
-  top: 20px;
-  left:30px;
+  left:80px;
   padding: 25px;
 }
 
 #nav h1 {
   font-family: 'Philosopher', sans-serif;
   font-size: 50px;
+  padding-top: 10px;
   color: white;
   display: flex;
 	flex-direction: row;
@@ -35,4 +34,10 @@ body{
 	justify-content: center;
 	align-items: baseline;
 	align-content: center;
+}
+
+.body-area{
+  background-color: darkgray;
+  margin: 73px;
+  height: 1500px;
 }
