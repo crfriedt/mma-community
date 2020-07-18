@@ -1,0 +1,38 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family:'Space Mono', monospace;
+}
+
+body{
+  background-color: #DADEDF;
+}
+
+#nav{
+  background-image: url('Images/blood.gif');
+  height: 100px;
+  outline:solid black;
+}
+
+.nav-item{
+  display: inline;
+  list-style: none;
+  color: white;
+  font-size: larger;
+  position: relative;
+  top: 20px;
+  left:30px;
+  padding: 25px;
+}
+
+#nav h1 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 50px;
+  color: white;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: center;
+}
